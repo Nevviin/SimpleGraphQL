@@ -8,12 +8,19 @@ SimpleGraphQL .Net5 Web Api  using  (AutoRegisteringObjectGraphType/AutoRegister
 # Query 
 
 query($userDetailsInput: UserDetailsInputModel!){
+
   getUserDetails(userDetailsInput:$userDetailsInput){
+  
       postCode,
+      
     userName,
+    
     city
+    
   }
+  
 }
+
 
 
 # Query Variable s
