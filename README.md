@@ -15,6 +15,7 @@ query($userDetailsInput: UserDetailsInputModel!){
   }
 }
 
+
 # Query Variable s
 
 {
